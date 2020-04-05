@@ -1,0 +1,26 @@
+#配置普通数据
+name: zhangsan
+
+#配置对象数据
+person:
+  name: zhangsanfeng
+  age: 33
+  addr: beijing
+
+# 配置对象数据方式二
+#person: {name: zhangsan,age: 31,addr: beijing }
+
+#配置数组数据
+city:
+  - beijing
+  - tianjin
+  - shanghai
+#或者  city:[beijing,tianjin,shanghai]
+
+student:
+  - name: zhangsan
+    age: 20
+  - name: lisi
+    age: 21
+
+#或者 student:[{name: zhangsan,age: 20},{name: lisi,age: 21}]
